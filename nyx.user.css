@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           nyx.cz
+@namespace      mplicka.cz
+@version        0.1.2
+@description    Removes last button in the navigation menu (to avoid the mechanical memory clicking on history button instead of bookmarked)
+@author         Martin Plicka <mail@mplicka.cz> (https://mplicka.cz)
+@homepageURL    https://github.com/mthu/stylus/
+@updateURL      https://github.com/mthu/stylus/raw/master/nyx.user.css
+==/UserStyle== */
+
+@-moz-document domain("nyx.cz") {
+    menu.l1 .last {
+        display: none;
+    }|
+}
