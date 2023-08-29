@@ -1,0 +1,76 @@
+/* ==UserStyle==
+@name           tv.seznam.cz
+@namespace      mplicka.cz
+@version        0.1.4
+@description    More compact style
+@author         Martin Plicka <mail@mplicka.cz> (https://mplicka.cz)
+@updateURL      https://github.com/mthu/stylus/raw/master/tv.seznam.user.css
+@homepageURL    https://github.com/mthu/stylus/
+==/UserStyle== */
+
+@-moz-document domain("tv.seznam.cz") {
+    .schedule-sheet-block,
+    .schedule-sheet-column,
+    .schedule-sheet-channels,
+    .schedule-sheet-channel,
+    .schedule-sheet-programmes {
+        padding: 0px !important;
+    }
+    .schedule-sheet-column,
+    .schedule-sheet-programmes,
+    .schedule-sheet-channel {
+        width: 8rem !important;
+    }
+    .sheet-tv-programme-title {
+        font-size: 0.72rem;
+    }
+    .sheet-tv-programme-title a {
+        margin-left: -1.65rem;
+        text-indent: 1.8rem;
+    }
+    .sheet-tv-programme-tag,
+    .add-programme-to-calendar {
+        display: none !important;
+    }
+    .sheet-tv-programme {
+        margin-bottom: 0.1rem !important;
+        padding: 0.1rem;
+    }
+    .sheet-tv-programme-description {
+        width: 100%;
+        padding-right: 0px !important;
+    }
+    .sheet-tv-programme-description-text {
+        text-align: justify;
+        font-size: 0.7rem;
+        max-height: 8rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .schedule-sheet-column,
+    .schedule-sheet-channel {
+        margin-left: 0.3rem;
+    }
+    .schedule-sheet-programme time {
+        font-weight: bold;
+        font-size: 0.7rem;
+        top: -0.04rem !important;
+    }
+    .schedule-sheet-programme .sheet-tv-programme-first-in-block time {
+        top: -0.05rem !important;
+    }
+    .schedule-sheet-channels-container {
+        height: 2rem !important;        
+    }
+    .schedule-sheet-channels {
+        height: 2.5rem !important;
+        line-height: 2.5rem !important;
+    }
+    .sheet-tv-programme-image {
+        width: 100% !important;
+        height: unset !important;
+    }
+}
+
+
+
