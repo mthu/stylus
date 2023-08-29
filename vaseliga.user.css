@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name           vaseliga.cz
+@namespace      mplicka.cz
+@version        0.1.6
+@description    Removing fancy stuff
+@author         Martin Plicka <mail@mplicka.cz> (https://mplicka.cz)
+@homepageURL    https://vps.mplicka.cz/~martin/custom-css/vaseliga.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.vaseliga.cz/") {
+    * {
+        --color-green-light: #538a44;
+        --color-green-dark: #366f36;
+    }
+
+    .p_box--yellow
+    {
+        background-color: var(--color-green-light);
+    }
+
+    
+    .btn--custom-1,
+    .c_main-menu,
+    .s_header__in
+
+    {
+        background-color: var(--color-green-dark);
+    }
+
+    a,
+    .c_action-list__venue a,
+    .c_media__body__date--link
+    {
+        color: var(--color-green-dark);
+    }
+
+    .c_action-list,
+    .c_action-list__item::before {
+        border-color: var(--color-green-dark);
+    }
+}
+
