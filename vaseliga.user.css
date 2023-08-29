@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name           vaseliga.cz
 @namespace      mplicka.cz
-@version        0.1.6
-@description    Removing fancy stuff
+@version        0.1.7
+@description    Custom colors
 @author         Martin Plicka <mail@mplicka.cz> (https://mplicka.cz)
-@homepageURL    https://vps.mplicka.cz/~martin/custom-css/vaseliga.user.css
+@homepageURL    https://github.com/mthu/stylus/raw/master/vaseliga.user.css
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.vaseliga.cz/") {
