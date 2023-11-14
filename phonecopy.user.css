@@ -1,0 +1,62 @@
+/* ==UserStyle==
+@name           phonecopy.com
+@namespace      mplicka.cz
+@version        0.1.0
+@description    Custom colors for calendar
+@author         Martin Plicka <mail@mplicka.cz> (https://mplicka.cz)
+@homepageURL    https://github.com/mthu/stylus/
+@updateURL      https://github.com/mthu/stylus/raw/master/phonecopy.user.css
+==/UserStyle== */
+
+@-moz-document domain("www.phonecopy.com") {
+    /*
+    .fc-time-grid-event .fc-bg {
+        background: unset;
+    }
+    */
+
+    .fc-ltr .fc-time-grid .fc-event-container {
+        margin: 0 2px 0 2px;
+    }
+
+    .fc-event.type-event.category-tenis {
+        background-color: #fb7;
+        border-color: #e2ac8c;
+    }
+    .fc-event.type-event.category-tenis .fc-resizer {
+        color: #e2ac8c;
+    }
+
+    .fc-event.type-event.category-sv-xc3-xa1tky {
+        background-color: #ffb3b3;
+        border-color: #e89b9b;
+    }
+    .fc-event.type-event.category-sv-xc3-xa1tky .fc-resizer {
+        color: #e89b9b;
+    }
+
+    .fc-event.type-event.category-pr-xc3-xa1ce {
+        background-color: #d1b9f1;
+        border-color: #c0a7d5;
+    }
+    .fc-event.type-event.category-pr-xc3-xa1ce .fc-resizer {
+        color: #c0a7d5;
+    }
+
+    .fc-event.type-event.category-fis-calendar-al-wc {
+        background-color: #c1f3e5;
+        border-color: #b6e6df;
+    }
+    .fc-event.type-event.category-fis-calendar-al-wc .fc-resizer {
+        color: #b6e6df;
+    }
+
+    .fc-event.type-event.category-ostatn-xc3-xad {
+        background-color: #ccc;
+        border-color: #c0c0c0;
+    }
+    .fc-event.type-event.category-ostatn-xc3-xad .fc-resizer {
+        color: #c0c0c0;
+    }
+
+}
