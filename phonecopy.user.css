@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           phonecopy.com
 @namespace      mplicka.cz
-@version        0.1.0
+@version        0.1.1
 @description    Custom colors for calendar
 @author         Martin Plicka <mail@mplicka.cz> (https://mplicka.cz)
 @homepageURL    https://github.com/mthu/stylus/
@@ -49,6 +49,15 @@
     }
     .fc-event.type-event.category-fis-calendar-al-wc .fc-resizer {
         color: #b6e6df;
+    }
+
+    .fc-event.type-event.category-badminton {
+        background-color: #6ac0fd;
+        border-color: #479ad5;
+    }
+
+    .fc-event.type-event.category-badminton .fc-resizer {
+        color: #479ad5;
     }
 
     .fc-event.type-event.category-ostatn-xc3-xad {
