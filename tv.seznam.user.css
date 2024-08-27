@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           tv.seznam.cz
 @namespace      mplicka.cz
-@version        0.1.4
+@version        0.1.5
 @description    More compact style
 @author         Martin Plicka <mail@mplicka.cz> (https://mplicka.cz)
 @updateURL      https://github.com/mthu/stylus/raw/master/tv.seznam.user.css
@@ -9,68 +9,43 @@
 ==/UserStyle== */
 
 @-moz-document domain("tv.seznam.cz") {
-    .schedule-sheet-block,
-    .schedule-sheet-column,
-    .schedule-sheet-channels,
-    .schedule-sheet-channel,
-    .schedule-sheet-programmes {
-        padding: 0px !important;
+    .cbs {
+        display: block;
     }
-    .schedule-sheet-column,
-    .schedule-sheet-programmes,
-    .schedule-sheet-channel {
-        width: 8rem !important;
+    .cbs .t {
+        text-align: unset;
+        float: left;
+        width: unset;
     }
-    .sheet-tv-programme-title {
-        font-size: 0.72rem;
+    .cbs .t div button {
+        display: none;
     }
-    .sheet-tv-programme-title a {
-        margin-left: -1.65rem;
-        text-indent: 1.8rem;
+    .cbs .d {
+        font-size: 18px;
     }
-    .sheet-tv-programme-tag,
-    .add-programme-to-calendar {
-        display: none !important;
-    }
-    .sheet-tv-programme {
-        margin-bottom: 0.1rem !important;
-        padding: 0.1rem;
-    }
-    .sheet-tv-programme-description {
+    .cbs img.i-d {
         width: 100%;
-        padding-right: 0px !important;
+        margin: auto;
+        border-radius: 0;
+        height: unset;
     }
-    .sheet-tv-programme-description-text {
-        text-align: justify;
-        font-size: 0.7rem;
-        max-height: 8rem;
-        overflow: hidden;
-        text-overflow: ellipsis;
+    .w-\[168px\] {
+        width: unset;
     }
-    .schedule-sheet-column,
-    .schedule-sheet-channel {
-        margin-left: 0.3rem;
+    .w-\[168px\] div.flex:nth-child(3) {
+        display: none;
     }
-    .schedule-sheet-programme time {
-        font-weight: bold;
-        font-size: 0.7rem;
-        top: -0.04rem !important;
+    .bb a.l {
+        display: inline;
     }
-    .schedule-sheet-programme .sheet-tv-programme-first-in-block time {
-        top: -0.05rem !important;
+    .bb .l h5 {
+        font-size: 18px;
+        display: inline;
     }
-    .schedule-sheet-channels-container {
-        height: 2rem !important;        
+    .io-sideline {
+        display: none;
     }
-    .schedule-sheet-channels {
-        height: 2.5rem !important;
-        line-height: 2.5rem !important;
-    }
-    .sheet-tv-programme-image {
-        width: 100% !important;
-        height: unset !important;
+    .bb ul.l .absolute {
+        display: none;
     }
 }
-
-
-
