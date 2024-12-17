@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           tv.seznam.cz
 @namespace      mplicka.cz
-@version        0.1.5
+@version        0.1.6
 @description    More compact style
 @author         Martin Plicka <mail@mplicka.cz> (https://mplicka.cz)
 @updateURL      https://github.com/mthu/stylus/raw/master/tv.seznam.user.css
@@ -17,7 +17,7 @@
         float: left;
         width: unset;
     }
-    .cbs .t div button {
+    .cbs .t div button span:first-child {
         display: none;
     }
     .cbs .d {
